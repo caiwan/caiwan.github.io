@@ -503,8 +503,8 @@ article {
     margin-top: 0;
     margin-bottom: 0; }
   article code {
-    border: 1px solid #BBB;
-    background: #EEE;
+    background: #546E7A;
+    color: #B0BEC5;
     font-size: 14px; }
   article table {
     width: 100%;
