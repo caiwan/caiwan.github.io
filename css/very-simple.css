@@ -40,7 +40,8 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  color: #333;
+  color: #F5F5F5;
+  background-color: #455A64;
   font-family: Helvetica, Tahoma, Arial, STXihei, "Microsoft YaHei", "WenQuanYi Micro Hei", SimSun, Heiti, ubuntu, sans-serif; }
 
 article {
@@ -51,11 +52,11 @@ article {
  */
 header {
   padding: 1em 0;
-  background: #333;
-  color: #F1F1F1; }
+  background: #263238;
+  color: #CFD8DC; }
   header .container {
-    font-family: "Titillium Web", "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", sans-serif;
-    border-bottom: .3em solid #333; }
+    font-family: "Comic Sans MS", cursive, LiSu, sans-serif;
+    border-bottom: .3em solid #263238; }
     header .container .title {
       color: #EEE;
       text-decoration: none;
@@ -79,7 +80,7 @@ header {
 nav {
   top: 0;
   position: sticky;
-  background: #333;
+  background: #263238;
   font-family: "Source Code Pro", Consolas, Monaco, Menlo, Consolas, monospace;
   font-size: 1em;
   z-index: 10; }
@@ -176,7 +177,7 @@ nav {
   display: inline-block;
   margin-left: .5rem;
   text-align: right;
-  color: #666;
+  color: #90A4AE;
   opacity: .6;
   transition: opacity .3s ease-in-out; }
   .post-tags-template:hover, .post-entry .post-desc .post-tags:hover, .post-entry .post-desc .post-categories:hover {
@@ -187,12 +188,12 @@ nav {
   .post-tags-template a, .post-entry .post-desc .post-tags a, .post-entry .post-desc .post-categories a {
     text-decoration: none;
     outline: none;
-    color: #666;
+    color: #90A4AE;
     margin: 0 .3rem;
     transition: border .2s ease-in-out; }
     .post-tags-template a:hover, .post-entry .post-desc .post-tags a:hover, .post-entry .post-desc .post-categories a:hover {
-      color: #333;
-      border-bottom: 2px solid #666; }
+      color: #90A4AE;
+      border-bottom: 2px solid #90A4AE; }
 
 .post-entry {
   font-size: 16px;
@@ -228,7 +229,7 @@ nav {
         bottom: .2ex;
         left: 0;
         right: auto;
-        color: #666;
+        color: #90A4AE;
         opacity: .6;
         top: auto; } }
     .post-entry .post-time::before {
@@ -236,7 +237,7 @@ nav {
       position: absolute;
       width: 20px;
       height: 20px;
-      background: #666;
+      background: #90A4AE;
       border-radius: 100%;
       left: calc(100% + 1rem + 6px/2 - 10px);
       top: calc(50% - 10px); }
@@ -259,7 +260,7 @@ nav {
           content: none;
           left: calc(-1em - 8px); } }
   .post-entry:hover .post-time {
-    color: #666; }
+    color: #90A4AE; }
     .post-entry:hover .post-time::after {
       background: #A1EFE9; }
   .post-entry .post-desc {
@@ -270,9 +271,9 @@ nav {
       font-weight: 600;
       font-size: 1.2em; }
       .post-entry .post-desc .post-title:hover {
-        border-bottom: 1px solid #666; }
+        border-bottom: 1px solid #90A4AE; }
       .post-entry .post-desc .post-title a {
-        color: #333;
+        color: #90A4AE;
         text-decoration: none;
         border: none;
         display: block;
@@ -310,7 +311,7 @@ nav {
   overflow: hidden;
   text-align: center;
   border-bottom: 2px solid #CCC;
-  color: #777; }
+  color: #90A4AE; }
   @media only screen and (max-width: 768px) {
     .page-navigator {
       border-top: 2px solid #CCC; } }
@@ -337,7 +338,7 @@ nav {
 footer#footer {
   text-align: right;
   margin-top: 2em;
-  background: #333; }
+  background: #263238; }
   footer#footer, footer#footer a, footer#footer a:visited {
     color: #AAA; }
   footer#footer a:hover {
@@ -355,7 +356,7 @@ footer#footer {
         transition: all .2s ease-in-out; }
         footer#footer .bar .social a:hover {
           background: #EEE;
-          color: #333; }
+          color: #263238; }
     footer#footer .bar .footer {
       flex: 1;
       padding: 1em 0; }
@@ -379,10 +380,10 @@ footer#footer {
 /* post header meta data(time/tag) */
 .wrapper .meta {
   text-align: right;
-  background: #333;
+  background: #263238;
   color: #CCC;
-  border-top: 2px solid #555;
-  border-bottom: 2px solid #555;
+  border-top: 2px solid #607D8B;
+  border-bottom: 2px solid #607D8B;
   display: flex;
   box-shadow: 0 0 2px 1px rgba(200, 200, 200, 0.8);
   transition: background-color .2s ease-in-out;
@@ -391,7 +392,7 @@ footer#footer {
     .wrapper .meta {
       max-width: 100%; } }
   .wrapper .meta:hover {
-    background: #222; }
+    background: #263238; }
   .wrapper .meta .post-time {
     flex: 1;
     text-align: left;
